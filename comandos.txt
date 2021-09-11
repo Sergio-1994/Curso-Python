@@ -1,0 +1,30 @@
+1. (git init) para iniciar el proyecto y añadir git al proyecto
+2. (git status -s) valida el estado de los archivos que de momentos estan siendo monitoreados por git
+3. (git add nombre del archivo) Añade un unico archivo  al área de ensayo
+3. (git add .) Añade todos los archivos  al área de ensayo
+4. (git commit -m "Descripcion de la modificación agregada") Nos permite dar un nombre al archivo que hemos guardado
+5. (git config --global user.email "you@example.com") and (git config --global user.name "Your Name") Son las credenciales que deben ser agregadas en caso de ser la primera vez
+Nota: por cada cambio realizado el archivo debe der agregado nuevamente con el comando "git add" para agregarlo al área de ensayo, y luego si podemos tomar la foto o copia a traves de "git commit -m "Descripcion de la modificación agregada")"
+
+6. (git log --oneline) Nos permite ver las fotos o copias realizadas en el archivo
+7. (git reset --hard código de la foto o copia tomada) Nos permite retornar al copia que queramos
+8. (git commit -am "Nombre de la copia") Nos permite agragar los cambios al área de ensayo y a la vez realizar la copia
+8. (git commit --amend) Nos permite abrir el editor "been" el cual nos permite editar el nombre de las copias tomadas
+nota: recuerda para editar poner el comando :i y para guardar y salir :wq
+
+9. (git tag nombre del tag -m  Descripcion del tag) Nos permite asignar una etiqueta al proyecto es decir una versión
+
+10. (git push --tags) Para subir el tag a GitHub
+11. (git clone url del proyecto) Clonamos el proyecto desde el repositorio en GitHub
+
+12. (git branch nombre de la rama) Nos permite crear las ramas (branch)
+
+13. (git branch) Nos pemite ver las ramas que tenemos creadas
+
+14. (git checkout nombre de la rama) Nos permite movernos en las ramas
+
+15. (git merge nombre de la rama a fucionar) Nos permite unificar el proyecto
+
+16. (git branch -d nombre de la rama que queremos eliminar) Nos permite elinimar una rama
+
+17. (git remote --verbose) 
