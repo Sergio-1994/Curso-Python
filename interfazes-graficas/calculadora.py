@@ -43,14 +43,14 @@ def suma(num):
 def resta(num):
     global operacion
     global resultado
-    resultado-=int(num)
+    resultado -= int(num)
     operacion = "resta"
     numIngresado.set(resultado)
 #------------MULTIPLICACIÓN----------------------------------
 def multiplicacion(num):
     global operacion
     global resultado
-    resultado*=int(num)*1
+    resultado*=int(num)
     operacion = "multiplicacion"
     numIngresado.set(resultado)
 
@@ -58,8 +58,11 @@ def multiplicacion(num):
 
 def elResultado():
     global resultado
+    global operacion
     numIngresado.set(resultado+int(numIngresado.get()))
+
     resultado=0
+    
 
 
 
